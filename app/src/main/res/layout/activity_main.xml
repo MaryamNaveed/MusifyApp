@@ -21,7 +21,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="426dp"
+        android:layout_width="427dp"
         android:layout_height="120dp"
         android:text="Musify"
         android:textAlignment="center"
