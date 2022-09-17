@@ -208,5 +208,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        p18=findViewById(R.id.p18);
+
+        p18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage18.class);
+                startActivity(intent);
+            }
+        });
     }
 }
