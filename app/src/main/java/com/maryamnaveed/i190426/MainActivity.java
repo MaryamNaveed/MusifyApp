@@ -21,6 +21,17 @@ public class MainActivity extends AppCompatActivity {
     TextView p10;
     TextView p11;
     TextView p12;
+    TextView p13;
+    TextView p14;
+    TextView p15;
+    TextView p16;
+    TextView p17;
+    TextView p18;
+    TextView p19;
+    TextView p20;
+    TextView p21;
+    TextView p22;
+    TextView p23;
 
 
     @Override
@@ -144,6 +155,56 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this, MainActivityPage12.class);
+                startActivity(intent);
+            }
+        });
+
+        p13=findViewById(R.id.p13);
+
+        p13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage13.class);
+                startActivity(intent);
+            }
+        });
+
+        p14=findViewById(R.id.p14);
+
+        p14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage14.class);
+                startActivity(intent);
+            }
+        });
+
+        p15=findViewById(R.id.p15);
+
+        p15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage15.class);
+                startActivity(intent);
+            }
+        });
+
+        p16=findViewById(R.id.p16);
+
+        p16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage16.class);
+                startActivity(intent);
+            }
+        });
+
+        p17=findViewById(R.id.p17);
+
+        p17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage17.class);
                 startActivity(intent);
             }
         });
