@@ -179,6 +179,7 @@
                     android:background="@drawable/roundedbutton"
                     android:gravity="center"
                     android:text="Upload"
+                    android:textStyle="bold"
                     android:textAllCaps="false"
                     android:textColor="@color/white">
 
@@ -198,6 +199,7 @@
                     android:padding="15dp"
                     android:textColor="@color/white"
                     android:text="Record"
+                    android:textStyle="bold"
                     android:gravity="center">
 
                 </TextView>

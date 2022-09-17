@@ -135,6 +135,7 @@
                 android:layout_height="50dp"
                 android:background="@drawable/roundedbutton"
                 android:text="Add Playlist"
+                android:textStyle="bold"
                 android:textAllCaps="false"
                 android:textColor="@color/white">
 
