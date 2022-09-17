@@ -34,21 +34,24 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".5">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Add Playlist"
+                    android:text="Record"
                     android:textColor="@color/white"
                     android:textSize="30dp"
-                    android:gravity="center">
+                    android:padding="15dp"
+                    >
 
                 </TextView>
 
-            </LinearLayout>
+            </RelativeLayout>
+
+
         </LinearLayout>
 
 
@@ -60,96 +63,47 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:src="@drawable/upload">
+                android:src="@drawable/despecito">
 
             </ImageView>
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight=".03">
-
-    </LinearLayout>
-
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".02">
+
+        </LinearLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight=".08"
-            android:layout_margin="20dp">
+            android:gravity="center">
 
-            <EditText
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Playlist Name"
-                android:inputType="text"
-                android:textSize="20dp"
-                android:background="@drawable/roundedtextfield"
-                android:textColor="#000"
-                android:padding="15dp"
-                android:textColorHint="#FFC107">
+                android:src="@drawable/stop"
+                android:layout_centerInParent="true">
 
-            </EditText>
+            </ImageView>
 
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".16"
-            android:layout_margin="20dp">
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="Description"
-                android:inputType="textMultiLine"
-                android:textSize="20dp"
-                android:background="@drawable/roundedtextfield"
-                android:textColor="#000"
-                android:padding="15dp"
-                android:textColorHint="#FFC107">
-
-            </EditText>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".05">
-
-        </LinearLayout>
+        </RelativeLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".1"
-            android:gravity="right"
-            android:layout_margin="20dp">
-
-            <Button
-                android:id="@+id/signup"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="@drawable/roundedbutton"
-                android:textColor="@color/white"
-                android:padding="15dp"
-                android:layout_margin="10dp"
-                android:textAllCaps="false"
-                android:text="Add Playlist">
-
-            </Button>
+            android:layout_weight=".4">
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".08">
 
-        </LinearLayout>
+
+
 
 
 
