@@ -241,9 +241,282 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 11"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 12"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 13"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 14"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 15"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 16"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 17"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 18"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 19"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 20"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 21"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 22"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".083">
+
+                    <TextView
+                        android:id="@+id/p23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Page 23"
+                        android:textSize="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+
             </LinearLayout>
 
         </LinearLayout>
+
+
 "
     </LinearLayout>
 

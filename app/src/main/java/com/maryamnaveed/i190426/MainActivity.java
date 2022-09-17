@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     TextView p8;
     TextView p9;
     TextView p10;
+    TextView p11;
+    TextView p12;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,6 +124,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this, MainActivityPage10.class);
+                startActivity(intent);
+            }
+        });
+
+        p11=findViewById(R.id.p11);
+
+        p11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage11.class);
+                startActivity(intent);
+            }
+        });
+
+        p12=findViewById(R.id.p12);
+
+        p12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage12.class);
                 startActivity(intent);
             }
         });
