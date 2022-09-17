@@ -14,6 +14,12 @@
         android:theme="@style/Theme.I190426"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityPage23"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityPage22"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityPage18"
             android:exported="false" />
         <activity

@@ -218,5 +218,27 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        p22=findViewById(R.id.p22);
+
+        p22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage22.class);
+                startActivity(intent);
+            }
+        });
+
+        p23=findViewById(R.id.p23);
+
+        p23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage23.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

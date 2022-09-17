@@ -98,14 +98,15 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight=".8">
+                android:layout_weight=".8"
+                android:layout_marginVertical="5dp">
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:hint="What an amazing song"
                     android:textColorHint="@color/white"
-                    android:padding="15dp"
+                    android:paddingHorizontal="15dp"
                     android:textColor="@color/white"
                     android:background="@drawable/color_two_rounded_textfield">
 
@@ -139,14 +140,16 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight=".85">
+            android:layout_weight=".85"
+            android:layout_marginVertical="5dp">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:layout_margin="10dp"
                 android:hint="Post a comment"
                 android:textColorHint="@color/white"
-                android:padding="15dp"
+                android:paddingHorizontal="15dp"
                 android:textColor="@color/white"
                 android:background="@drawable/color_two_rounded_textfield">
 
@@ -162,10 +165,17 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/play"
-                android:background="@drawable/brown_circle">
+                android:src="@drawable/play1">
 
             </ImageView>
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/play"-->
+<!--                android:background="@drawable/brown_circle">-->
+
+<!--            </ImageView>-->
 
         </LinearLayout>
 
