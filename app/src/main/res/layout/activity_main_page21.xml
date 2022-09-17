@@ -89,16 +89,52 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".1"
+            android:layout_weight=".06"
+            android:gravity="center"
             android:orientation="horizontal"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:background="@drawable/react_stroke">
 
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Playlist"
+                    android:textColor="#FFC107"
+                    android:gravity="center"
+                    android:textSize="20dp">
 
+                </TextView>
 
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
 
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/roundedbutton"
+                    android:textColor="#67420B"
+                    android:text="Music">
 
+                </Button>
 
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".03">
 
         </LinearLayout>
 
@@ -321,7 +357,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".33">
+            android:layout_weight=".35">
 
         </LinearLayout>
 
