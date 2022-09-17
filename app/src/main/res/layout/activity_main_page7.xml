@@ -100,17 +100,18 @@
                 android:layout_height="match_parent"
                 android:layout_weight=".8"
                 android:layout_marginVertical="5dp">
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:text="What an amazing song"
+                    android:paddingVertical="8dp"
                     android:textColorHint="@color/white"
                     android:paddingHorizontal="15dp"
                     android:textColor="@color/white"
                     android:background="@drawable/color_two_rounded_textfield">
 
-                </EditText>
+                </TextView>
 
             </LinearLayout>
 
