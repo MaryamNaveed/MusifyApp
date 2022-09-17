@@ -104,7 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:hint="What an amazing song"
+                    android:text="What an amazing song"
                     android:textColorHint="@color/white"
                     android:paddingHorizontal="15dp"
                     android:textColor="@color/white"
