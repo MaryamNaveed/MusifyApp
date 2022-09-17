@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/bg_color_tab.xml" value="0.19" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/border.xml" value="0.152" />
+        <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/brown_circle.xml" value="0.19" />
+        <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/color_two_rounded_textfield.xml" value="0.19" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/roundedbutton.xml" value="0.153" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/roundedtextfield.xml" value="0.153" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/drawable/roundedwhitebutton.xml" value="0.153" />
@@ -15,7 +17,8 @@
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page3.xml" value="0.17074275362318841" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page4.xml" value="0.17074275362318841" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page5.xml" value="0.1" />
-        <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page6.xml" value="0.16893115942028986" />
+        <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page6.xml" value="0.1" />
+        <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/layout/activity_main_page7.xml" value="0.16893115942028986" />
         <entry key="..\:/7thSemester/Smd/Assignment1/i190426/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.203125" />
       </map>
     </option>
