@@ -219,6 +219,36 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        p19=findViewById(R.id.p19);
+
+        p19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage19.class);
+                startActivity(intent);
+            }
+        });
+
+        p20=findViewById(R.id.p20);
+
+        p20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage20.class);
+                startActivity(intent);
+            }
+        });
+
+        p21=findViewById(R.id.p21);
+
+        p21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, MainActivityPage21.class);
+                startActivity(intent);
+            }
+        });
+
         p22=findViewById(R.id.p22);
 
         p22.setOnClickListener(new View.OnClickListener() {
