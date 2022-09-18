@@ -379,7 +379,7 @@
                 app:itemIconTint="#FFC107"
                 app:itemTextColor="@color/white"
                 app:labelVisibilityMode="labeled"
-                app:menu="@menu/bottom_navigation_menu">
+                app:menu="@menu/bottom_navigation_menu1">
 
             </com.google.android.material.bottomnavigation.BottomNavigationView>
 
