@@ -128,14 +128,15 @@
             android:textSize="20dp">
 
         </EditText>
+
         <TextView
             android:layout_width="70dp"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
-            android:text="Show"
+            android:clickable="true"
             android:gravity="center"
-            android:textColor="#FF9800"
-            android:clickable="true">
+            android:text="Show"
+            android:textColor="#FF9800">
 
         </TextView>
     </RelativeLayout>
